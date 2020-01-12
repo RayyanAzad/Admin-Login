@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/Leaf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+    width: 650px;
+    margin: 10% auto;
+}
+
+.login-section {
+    background: #e4da9185;
+    padding: 40px;
+}
+
+.login-section img{
+    margin: 0 auto;
+    display: block;
+}
+.login-section h3{
+    text-align: center;
+    color: honeydew;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+
+.SignUp-section {
+    background: #e4da9185;
+    padding: 40px;
+}
+
+.SignUp-section img{
+    margin: 0 auto;
+    display: block;
+}
+.SignUp-section h3{
+    text-align: center;
+    color: honeydew;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+
+.ResetPassword-section {
+    background: #e4da9185;
+    padding: 40px;
+}
+
+.ResetPassword-section img{
+    margin: 0 auto;
+    display: block;
+}
+.ResetPassword-section h3{
+    text-align: center;
+    color: honeydew;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+.ResetPassword-section h5{
+    text-align: center;
+    color: #212321;
+    font-size: 17px;
+    text-transform: none;
+    margin: 15px 0px;
+}
+
+.form-control {
+    width: 99%;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    text-align: start;
+
+}
+
+.submit-btn {
+    display: block;
+    margin: 5px auto;
+    background: #ece8e1;
+    color: black;
+    padding: 3px;
+    text-transform: uppercase;
+    border: sienna;
+    transition: 0.4s ease-in-out;
+
+}
+
+.submit-btn:hover {
+	box-shadow: 2px 3px 4px #fff;
+	cursor: pointer;
+	
+}
